@@ -1,0 +1,62 @@
+*{
+margin: 0;padding: 0;
+box-sizing: border-box;
+font-family: 'Ibarra Real Nova', serif;
+background-image: "bg.jpg";
+}
+
+.logo{
+width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+
+}
+
+
+}
+.header{
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: bg.jpg;
+}
+.right-sec{
+	padding-left: 700px;
+}
+
+.Content{
+width: 100%; height: auto;
+margin: 100px 0;
+}
+.extra-div{
+background: white;
+border: medium none;
+padding: 50px;
+border-radius: 3px;
+transition: 0.3s;
+background-image: "back.jpg";
+}
+
+.extra-div p{
+	font-size: 1rem;
+}
+
+
+.extra-div h2{
+font-size: 3rem;
+margin: 20px 0 15px 0;
+font-weight: bold;
+line-height: 1.1;
+word-spacing: 4px;
+}
+.extra-div:hover{
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+transform: translateY(-20px);
+}
+.row{
+
+	background-image: back.jpg;
+}

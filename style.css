@@ -1,0 +1,125 @@
+*{
+margin: 0;padding: 0;
+box-sizing: border-box;
+font-family: 'Ibarra Real Nova', serif;
+}
+header{
+	width: 100%;
+	height: 100%;
+	background-image: url('../KidZone/bg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+.mainheader{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.mainheader .logo img{
+    width: 250px; height: 70px;
+    padding-left: 60px;
+}
+
+.mainheader nav{
+     width: 450px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+.mainheader nav a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+}
+
+.menubtn{
+	margin-right: 60px;
+}
+.mainheader button {
+ padding: 15px 45px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    background-color:  #008CBA;
+    border-radius: 10px ;
+   position: centre;
+
+}
+
+main{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+main.right-sec{
+       padding-right: 70px;
+       
+}
+main.left-sec{
+     padding-left: 100px;
+
+}
+.left-sec h2{
+	font-size: 35px;
+	text-transform: capitalize;
+	font-weight: lighter;
+	color: #242424;
+	margin-top: 150px;
+	margin-left: 15px;
+}
+.left-sec h1{
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 12px;
+    margin-left: 15px;
+}
+.left-sec button{
+	  padding: 15px 45px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 18px;
+    color: black;
+    border: none;
+    background-color:  #008CBA;
+    border-radius: 10px ;
+   position: centre;
+}
+
+.Videos{
+width: 100%; height: auto;
+margin: 100px 0;
+}
+.extra-div{
+background: white;
+border: medium none;
+padding: 50px;
+border-radius: 3px;
+transition: 0.3s;
+}
+
+
+.extra-div h2{
+font-size: 0.9rem;
+margin: 20px 0 15px 0;
+font-weight: bold;
+line-height: 1.1;
+word-spacing: 4px;
+}
+.extra-div:hover{
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+transform: translateY(-20px);
+}
+
+.fa fa-plus-circle{
+font-size: 40px;
+
+
+}
